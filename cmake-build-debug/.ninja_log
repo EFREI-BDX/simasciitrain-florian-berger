@@ -18,3 +18,6 @@
 20	585	7552025392399755	CMakeFiles/simasciitrain.dir/UtilityWagon.cpp.obj	142201aa1bbbbca6
 28	630	7552025392479765	CMakeFiles/simasciitrain.dir/Train.cpp.obj	fca7b757aea91f8a
 630	794	7552025398502102	simasciitrain.exe	336e2c3af9f36c79
+22	686	7552030140730069	CMakeFiles/simasciitrain.dir/AbstractLocomotive.cpp.obj	b6e7067501531604
+30	706	7552030140809156	CMakeFiles/simasciitrain.dir/Train.cpp.obj	fca7b757aea91f8a
+706	875	7552030147574513	simasciitrain.exe	336e2c3af9f36c79
