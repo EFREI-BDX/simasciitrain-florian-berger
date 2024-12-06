@@ -5,6 +5,7 @@
 
 # Made with ❤️ by [JAD](mailto:jeanaymeric@gmail.com)
 
+## Fait par BERGER Florian - LUXEY Aurélien
 ## Consignes :
 
 Vous devez implémenter en C++ les diagramm de classes fourni dans le dossier `img`.

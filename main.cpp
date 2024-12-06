@@ -1,17 +1,19 @@
 #include <iostream>
-#include "FreightWagon.h"
-#include "AbstractWagon.h"
-#include "PassengerWagon.h"
-#include "UtilityWagon.h"
-#include "ElectricLocomotive.h"
-#include "GasolineLocomotive.h"
-#include "Wagons.h"
+
 #include "AbstractLocomotive.h"
+#include "AbstractWagon.h"
+#include "ElectricLocomotive.h"
+#include "FreightWagon.h"
+#include "GasolineLocomotive.h"
+#include "PassengerWagon.h"
 #include "Train.h"
+#include "UtilityWagon.h"
+#include "Wagons.h"
 
 using namespace simasciitrain;
 
 int main() {
+	std::cout << "===== BERGER Florian - LUXEY Aurelien =====" << std::endl;
 	AbstractWagon *freightWagon = new FreightWagon(5);
 	std::cout << *freightWagon << std::endl;            //	[#####]
 	AbstractWagon *passengerWagon = new PassengerWagon(5);
@@ -43,6 +45,7 @@ int main() {
 	Train anotherTrain(&wagons2, gasolineLocomotive);
 	std::cout << anotherTrain << std::endl;                //	[###]-[OO]-[@]-[#]-[OOOOO]-[OOOOO]-[OOOOO]-[OOOOO]-[G]>
 
+	std::cout << "===== BERGER Florian - LUXEY Aurelien =====" << std::endl;
 	return 0;
 }
 
