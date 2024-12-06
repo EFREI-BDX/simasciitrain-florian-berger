@@ -14,8 +14,6 @@ add_executable(simasciitrain
         ElectricLocomotive.cpp
         GasolineLocomotive.cpp
         TypeLocomotive.cpp
-        Wagons.h
         Wagons.cpp
         Train.cpp
-        Train.h
 )
